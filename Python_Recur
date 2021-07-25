@@ -1,0 +1,12 @@
+def recuring_sum(n):
+   if n <= 1:
+       return n
+   else:
+       return n + recuring_sum(n-1)
+
+num = 15
+
+if num < 0:
+   print("Enter a positive number")
+else:
+   print("The sum is",recuring_sum(num))
